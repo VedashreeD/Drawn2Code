@@ -1,6 +1,6 @@
 # Drawn2Code
 
-Drawn2Code is a project that converts UI sketches into usable frontend code using multimodal large language models (LLMs). The application allows users to draw webpage designs on a canvas, processes the design using a backend powered by Ollama's Gemma model, and generates the corresponding HTML and CSS code.
+Drawn2Code is a project that converts UI sketches into usable frontend code using multimodal large language models (LLMs). The application allows users to draw webpage designs on a canvas, processes the design using a backend powered by Ollama's Gemma3 mulitmodal LLM, and generates the corresponding HTML and CSS code.
 
 ## Features
 - **Canvas Drawing**: Users can sketch webpage designs directly in the browser.
@@ -43,7 +43,7 @@ We use Ollama to fetch a list of available models and select a lightweight multi
     ```
 2. Run a specific model:
     ```bash
-    ollama run gemma
+    ollama run gemma3
     ```
 3. Use the model in the backend to process user sketches and generate code.
 
